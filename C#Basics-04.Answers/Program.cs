@@ -21,7 +21,7 @@ namespace C_Basics_04.Answers
                     break;
 
                 default:
-                    Console.WriteLine("Never heard of it"); 
+                    Console.WriteLine("Never heard of it");
                     break;
             }
 
@@ -35,11 +35,26 @@ namespace C_Basics_04.Answers
             int pages = 464;
 
 
-            string sizeLabel = pages > 300 ? "Long Book" : "Short Book"; 
+            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
 
 
             #endregion
 
+
+            #region Question 3
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            int i;
+
+            for (i = 0; i < books.Length; i++)
+            {
+
+                Console.WriteLine($"{i+1}. {books[i]}");
+
+            }
+
+            #endregion
 
 
 
@@ -59,3 +74,8 @@ namespace C_Basics_04.Answers
         }
     }
 }
+
+
+
+
+
