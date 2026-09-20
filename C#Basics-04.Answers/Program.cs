@@ -58,15 +58,29 @@ namespace C_Basics_04.Answers
 
 
             #region Question 4
-            
-            while (i < books.Length)
+            int l = 0;
+            while (l < books.Length)
             {
-                Console.WriteLine(books[i]);
-                i++;
+                Console.WriteLine(books[l]);
+                l++;
             }
 
 
             #endregion
+
+
+            #region Question 5
+            int j = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+
+                j++;
+
+            } while (j < 3);
+
+
+            #endregion 
 
 
 
