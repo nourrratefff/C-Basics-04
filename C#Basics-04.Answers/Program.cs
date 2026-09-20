@@ -80,8 +80,20 @@ namespace C_Basics_04.Answers
             } while (j < 3);
 
 
-            #endregion 
+            #endregion
 
+            #region Question 6
+
+            foreach(string book in books)
+            {
+                Console.WriteLine(book);
+            }
+              
+
+
+
+
+            #endregion 
 
 
 
