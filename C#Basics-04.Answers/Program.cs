@@ -57,6 +57,20 @@ namespace C_Basics_04.Answers
             #endregion
 
 
+            #region Question 4
+            
+            while (i < books.Length)
+            {
+                Console.WriteLine(books[i]);
+                i++;
+            }
+
+
+            #endregion
+
+
+
+
 
 
 
