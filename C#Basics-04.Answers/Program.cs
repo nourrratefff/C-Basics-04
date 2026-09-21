@@ -88,12 +88,31 @@ namespace C_Basics_04.Answers
             {
                 Console.WriteLine(book);
             }
-              
 
 
+
+
+
+            #endregion
+
+
+            #region Question 7
+
+            for(i = 0; i < books.Length; ++i)
+            {
+                if (books[i] == "Refactoring")
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine(books[i]);
+                }
+            }
 
 
             #endregion 
+
 
 
 
