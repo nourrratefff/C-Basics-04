@@ -51,7 +51,7 @@ namespace C_Basics_04.Answers
             for (i = 0; i < books.Length; i++)
             {
 
-                Console.WriteLine($"{i+1}. {books[i]}");
+                Console.WriteLine($"{i + 1}. {books[i]}");
 
             }
 
@@ -85,7 +85,7 @@ namespace C_Basics_04.Answers
 
             #region Question 6
 
-            foreach(string book in books)
+            foreach (string book in books)
             {
                 Console.WriteLine(book);
             }
@@ -99,7 +99,7 @@ namespace C_Basics_04.Answers
 
             #region Question 7
 
-            for(i = 0; i < books.Length; ++i)
+            for (i = 0; i < books.Length; ++i)
             {
                 if (books[i] == "Refactoring")
                 {
@@ -117,9 +117,9 @@ namespace C_Basics_04.Answers
 
             #region Question 8
 
-            for(i = 0; i < books.Length; ++i)
+            for (i = 0; i < books.Length; ++i)
             {
-                if(books[i] == "The Pragramtic Programmer")
+                if (books[i] == "The Pragramtic Programmer")
                 {
                     continue;
                 }
@@ -173,10 +173,24 @@ namespace C_Basics_04.Answers
 
             Console.WriteLine(sb);
 
+            #endregion
+
+            #region Quesiton 5
+
+            string title3 = "Clean Code";
+
+            int pages2 = 464;
+
+            string message = "Book: " + title3 + ", Pages: " + pages2;
+
+            Console.WriteLine(message);
 
 
 
             #endregion
+
+
+
 
 
 
