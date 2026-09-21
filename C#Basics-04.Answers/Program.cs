@@ -130,20 +130,33 @@ namespace C_Basics_04.Answers
             #endregion
 
 
+            PrintFirstBook(books);
+
+        }
 
 
+        #region Question 9
 
+        static void PrintFirstBook(string[] Array)
+        {
+            if(Array.Length == 0)
+            {
+                return;
+            }
 
-
-
-
-
-
-
-
+            else
+            {
+                Console.WriteLine(Array[0]);
+            }
+           
+            
 
 
         }
+
+        #endregion
+
+
     }
 }
 
