@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Text;
 
 namespace C_Basics_04.Answers
 {
@@ -154,6 +155,17 @@ namespace C_Basics_04.Answers
 
             #endregion
 
+            #region Question 3
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("Book List");
+            sb.Append(" Updated");
+
+            Console.WriteLine(sb);
+            
+
+            #endregion 
         }
 
 
