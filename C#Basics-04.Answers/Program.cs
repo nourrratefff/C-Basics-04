@@ -144,6 +144,15 @@ namespace C_Basics_04.Answers
 
             #endregion
 
+            #region Question 2
+
+            string string1 = "Clean Code";
+            string string2 = "Clean Code";
+
+            bool sameMemory = Object.ReferenceEquals(string1, string2);
+            Console.WriteLine(sameMemory);
+
+            #endregion
 
         }
 
