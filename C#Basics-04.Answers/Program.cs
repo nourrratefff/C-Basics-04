@@ -132,6 +132,19 @@ namespace C_Basics_04.Answers
 
             PrintFirstBook(books);
 
+            #region Question 1
+            string title2 = "clean code";
+
+            title2.ToUpper();
+
+            string upperTitle = title2;
+
+            Console.WriteLine(title2);
+            Console.WriteLine(upperTitle);
+
+            #endregion
+
+
         }
 
 
