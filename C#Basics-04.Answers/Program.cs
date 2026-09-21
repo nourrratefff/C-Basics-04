@@ -189,8 +189,18 @@ namespace C_Basics_04.Answers
 
             #endregion
 
+            #region Question 6
+
+            Console.WriteLine($"Book: {title3}, Pages: {pages2}");
+
+            #endregion
+
+            #region Question 7
+
+            Console.WriteLine(String.Format("Book: {0},Pages: {1} ", title3, pages2));
 
 
+            #endregion
 
 
 
