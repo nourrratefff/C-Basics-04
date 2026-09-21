@@ -111,10 +111,23 @@ namespace C_Basics_04.Answers
             }
 
 
-            #endregion 
+            #endregion
 
 
+            #region Question 8
 
+            for(i = 0; i < books.Length; ++i)
+            {
+                if(books[i] == "The Pragramtic Programmer")
+                {
+                    continue;
+                }
+                else
+                {
+                    Console.WriteLine(books[i]);
+                }
+            }
+            #endregion
 
 
 
