@@ -163,9 +163,23 @@ namespace C_Basics_04.Answers
             sb.Append(" Updated");
 
             Console.WriteLine(sb);
-            
 
-            #endregion 
+
+            #endregion
+
+            #region Question 4
+
+            sb.Replace("Book List", "Library");
+
+            Console.WriteLine(sb);
+
+
+
+
+            #endregion
+
+
+
         }
 
 
